@@ -1,5 +1,7 @@
 # docker-mongodb-pharmacy
 
+[![Build Status](https://travis-ci.org/nhsuk/docker-mongodb-pharmacy.svg?branch=master)](https://travis-ci.org/nhsuk/docker-mongodb-pharmacy)
+
 This is a repo for our docker MongoDB images + data
 
 # Development
