@@ -10,7 +10,7 @@ RUN mkdir -p /data/db2 \
 COPY data/ /pharmacy-data/
 COPY etc/ /etc/
 
-RUN mongod --fork --logpath /var/log/mongodb.log --config /etc/mongodb.conf \
+RUN mongod --storageEngine mmapv1 --fork --logpath /var/log/mongodb.log --config /etc/mongodb.conf \
     && mongoimport --jsonArray -d services -c pharmacies --file /pharmacy-data/pharmacy-data.json \
     && mongo services --eval "db.pharmacies.createIndex({location:'2dsphere'})" \
     && mongod --config /etc/mongodb.conf --shutdown \
