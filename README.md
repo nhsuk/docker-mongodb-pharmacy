@@ -10,7 +10,7 @@ This is a repo for our docker MongoDB images + data
 * This will give you a DB with the following info:
     * Name of the database in the Mongo image: services                
     * Name of collection in the Mongo image: pharmacies              
-    * ame of MongoDB host: mongo                   
+    * Name of MongoDB host: mongo                   
     * The port used by MongoDB: 27017                  
 
 
