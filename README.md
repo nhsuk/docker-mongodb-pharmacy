@@ -7,6 +7,12 @@ This is a repo for our docker MongoDB images + data
 * From within the directory run `docker-compose up --build` to run the image (you will need to have installed Docker for your OS).
 * RoboMongo is a good free GUI client for viewing MongoDB db's.
 * Connect to the MongoDB instance from a MongoDB client on `localhost:27017`.
+* This will give you a DB with the following info:
+    * Name of the database in the Mongo image: services                
+    * Name of collection in the Mongo image: pharmacies              
+    * ame of MongoDB host: mongo                   
+    * The port used by MongoDB: 27017                  
+
 
 # Deployment workflow
 
@@ -19,5 +25,3 @@ Here are the steps to follow:
 * Run `docker build -t nhsuk/mongodb-pharmacy:1486569627860 .`
 * Run `docker push nhsuk/mongodb-pharmacy:1486569627860` to push to Dockerhub
 * Use the new image in the api
-
-
