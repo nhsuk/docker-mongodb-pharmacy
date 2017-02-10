@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  mongodb-pharmacy:
+    build:
+      context: .
+    ports:
+      - 27017:27017
