@@ -4,6 +4,7 @@
 
 The repo is a Dockerised container consisting of a set of pharmacy data loaded into a MongoDB 3.4 instance.
 It is available on Docker hub at [nhsuk/pharmacy-db](https://hub.docker.com/r/nhsuk/pharmacy-db/)
+The (Pharmacy Data ETL)[https://github.com/nhsuk/pharmacy-data-etl] provides the data file that is imported in this image.
 
 The container has the following properties:
 * DB - services
