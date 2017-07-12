@@ -1,5 +1,3 @@
-services:
-  - docker
+services: docker
 
-script:
-  - bash ./scripts/ci-deployment/deploy.sh
+script: bash ./scripts/ci-deployment/deploy.sh
