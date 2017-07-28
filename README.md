@@ -1,5 +1,6 @@
 # pharmacy-db
 
+[![GitHub Release](https://img.shields.io/github/release/nhsuk/pharmacy-db.svg)](https://github.com/nhsuk/pharmacy-db/releases/latest/)
 [![Build Status](https://travis-ci.org/nhsuk/pharmacy-db.svg?branch=master)](https://travis-ci.org/nhsuk/pharmacy-db)
 
 The repo is a Dockerised container consisting of a set of pharmacy data loaded into a MongoDB 3.4 instance.
