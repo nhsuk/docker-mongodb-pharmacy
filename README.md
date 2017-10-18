@@ -1,3 +1,7 @@
+# **DEPRECATED** - no longer actively maintained
+
+---
+
 # Pharmacy DB
 
 [![GitHub Release](https://img.shields.io/github/release/nhsuk/pharmacy-db.svg)](https://github.com/nhsuk/pharmacy-db/releases/latest/)
